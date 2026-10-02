@@ -1,0 +1,20 @@
+Project : Employee Leave Management API
+features
+    1. Employee Registration
+    2. View Employee Details
+    3. Apply for Leave
+    4. View leave Details
+    5. update/cancel pending leave request
+    6. Manager can approve/reject leave
+    7. Check remaining leave balance
+    
+Employee    
+    1. GET /employees?department=None
+    2. POST /employees
+    3. GET /employees/{employee_id}
+    4. GET /employees?name=None
+    5. pagination
+    6. order by
+
+authentication:
+    to check wheter user is authenticated or not. 
