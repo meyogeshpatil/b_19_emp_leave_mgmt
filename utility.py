@@ -9,7 +9,7 @@ from datetime import datetime, timedelta, timezone
 
 pwd_hasher = PasswordHasher()
 
-jwt_sceret = '664e125e9b55b40c1115b5c480a99be5a7b969bb7b7cc899eaa33b7f3dfb43b6'
+jwt_sceret = 'my_secret_key'
 jwt_alg = 'HS256'
 jwt_expire_minutes = 15
 jwt_issuer = 'leave_mgmt'
