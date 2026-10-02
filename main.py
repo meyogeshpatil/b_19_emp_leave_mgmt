@@ -131,5 +131,5 @@ def create_employee(
     else:
         raise HTTPException(
                     status_code= 403,
-                    detail= 'You dont have access to registeer the employee'
+                    detail= 'You dont have access to register the employee.'
         )
